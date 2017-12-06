@@ -18,6 +18,7 @@ import { BootEnvReplaceFormComponent } from './bootenv/bootenv-replace';
 import { TunableFormComponent } from './tunable/tunable-form/';
 import { TunableListComponent } from './tunable/tunable-list/';
 import { UpdateComponent } from './update/';
+import { EmailComponent } from './email/';
 import { NTPServerAddComponent } from './ntpservers/ntpserver-add/';
 import { NTPServerEditComponent } from './ntpservers/ntpserver-edit/';
 import { NTPServerListComponent } from './ntpservers/ntpserver-list/';
@@ -146,6 +147,10 @@ export const routes: Routes = [
       component: UpdateComponent,
       data: { title: 'Update', breadcrumb: 'Update' },
     }, {
+      path: 'email',
+      component: EmailComponent,
+      data: { title: 'Email', breadcrumb: 'email' },
+    },{
       path: 'ntpservers',
       data: { title: 'NTPservers', breadcrumb: 'NTPservers' },
       children: [{

@@ -24,6 +24,7 @@ import { BootEnvAttachFormComponent } from './bootenv/bootenv-attach';
 import { TunableListComponent } from './tunable/tunable-list/';
 import { TunableFormComponent } from './tunable/tunable-form/';
 import { UpdateComponent } from './update/';
+import { EmailComponent } from './email/';
 import { NTPServerAddComponent } from './ntpservers/ntpserver-add/';
 import { NTPServerEditComponent } from './ntpservers/ntpserver-edit/';
 import { NTPServerListComponent } from './ntpservers/ntpserver-list/';
@@ -83,6 +84,7 @@ import { AlertServiceAddOpsgenieComponent } from 'app/pages/system/alertservice/
     TunableListComponent,
     TunableFormComponent,
     UpdateComponent,
+    EmailComponent,
     NTPServerListComponent,
     NTPServerAddComponent,
     NTPServerEditComponent,
