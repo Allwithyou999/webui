@@ -70,8 +70,7 @@ export class EmailComponent {
   constructor(private rest: RestService, private ws: WebSocketService) {}
 
   sendTestMail(){
-    console.log("sent");
-    this.ws.call("mail.send",[{'subject': 'test', 'to': 'xt@ixsystems.com'}]).subscribe((res) => {
+    this.ws.call("mail.send",[{'subject': 'test', 'text':' this is a test mail','to': 'xt@ixsystems.com', 'cc': ''},{}]).subscribe((res) => {
       console.log(res);
     })
   }
