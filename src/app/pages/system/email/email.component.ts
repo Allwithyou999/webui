@@ -37,8 +37,8 @@ export class EmailComponent {
     tooltip: 'encryption of the connection',
     options: [
       { label: 'Plain', value: 'plain' },
-      { label: 'SSL', value: 'SSL' },
-      { label: 'TLS', value: 'TLS' },
+      { label: 'SSL', value: 'ssl' },
+      { label: 'TLS', value: 'tls' },
     ],
   }, {
     type: 'checkbox',
